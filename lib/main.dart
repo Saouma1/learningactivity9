@@ -30,18 +30,11 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
   final dollarTextField = TextEditingController();
   final euroTextField = TextEditingController();
   double _dollars = 0;
   double _euros = 0;
   double _conversionRate = 1.06;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
 
   void _convertToDollars() {
     setState(() {
