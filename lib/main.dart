@@ -35,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final euroTextField = TextEditingController();
   double _dollars = 0;
   double _euros = 0;
-  double _conversionRate = 1.19;
+  double _conversionRate = 1.06;
 
   void _incrementCounter() {
     setState(() {
